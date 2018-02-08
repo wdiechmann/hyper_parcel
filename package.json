@@ -1,0 +1,18 @@
+{
+  "name": "hyper_parcel",
+  "version": "1.0.0",
+  "description": "Testing Hyperapp framework & Parcel asset bundler",
+  "main": "index.js",
+  "repository": "github.com/wdiechmann/hyper_parcel",
+  "author": "Walther H Diechmann",
+  "license": "MIT",
+  "private": false,
+  "start": "parcel index.html",
+  "build": "parcel build index.html --public-url ./",
+  "dependencies": {
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "hyperapp": "^1.1.1",
+    "parcel-bundler": "^1.5.1"
+  }
+}
